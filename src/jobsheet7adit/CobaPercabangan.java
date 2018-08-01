@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class CobaPercabangan {
     public static void main(String[] args) {
-    String identitas = "nAditya Aprilliyan Putra/X-RPL 5/02";
+    String identitas = "Aditya Aprilliyan Putra/X-RPL 5/02";
     System.out.println("Identitas : "+ identitas);
     
     Scanner scanner = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class CobaPercabangan {
     int a = scanner.nextInt();
     
     System.out.println("\nIF.. 1");
-    if(a<5) System.out.println("nilai a kurang dari 5");
+    if(a < 5) System.out.println("nilai a kurang dari 5");
     
     System.out.println("\nIF.. 2");
     if(a==5)    
@@ -31,8 +31,8 @@ public class CobaPercabangan {
     if(a>5) {
         System.out.println("isi variable a :"+a);
         System.out.println("nilai a lebih dari 5");
-    
-
+        
+        
 }
 System.out.println("\nIF..ELSE..");
 if (a<5) {
