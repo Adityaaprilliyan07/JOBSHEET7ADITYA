@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class SaranBahan2Resep {
     public static void main(String[] args) {
-    String identitas = "nama lengkap / kelas / no";
+    String identitas = "Aditya Aprilliyan Putra / X-RPL 5 / 02";
      System.out.println("Identitas : "+ identitas);
      
       System.out.print("\nSaran Resep dari Bahan Milik Anda\n");
@@ -22,7 +22,7 @@ public class SaranBahan2Resep {
       
       System.out.println("Bahan Pertama:");
       System.out.println("1.Pisang");
-      System.out.println("2. Telur");
+      System.out.println("2.Telur");
       System.out.println("Masukkan no pilihan Anda:");
       int bahan1 = scanner.nextInt();
       
@@ -72,9 +72,10 @@ public class SaranBahan2Resep {
         System.out.println("Mohon Maaf, Pilian tidak ditemukan, " + "tidak dapat memberikan resep");
                         
                         
-            }
-          }
-      }
+    }
+}
+          
+      
           
     
-}
+

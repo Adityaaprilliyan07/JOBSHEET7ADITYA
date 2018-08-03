@@ -21,7 +21,7 @@ public class CobaPercabangan {
     int a = scanner.nextInt();
     
     System.out.println("\nIF.. 1");
-    if(a < 5) System.out.println("nilai a kurang dari 5");
+    if(a<5) System.out.println("nilai a kurang dari 5");
     
     System.out.println("\nIF.. 2");
     if(a==5)    
